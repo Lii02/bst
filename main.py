@@ -1,8 +1,8 @@
-from bst import Node, BST
+from bst import BST
 
 def main():
-    bst = BST(23)
-    print(bst)
+    tree = BST(23)
+    tree.insert(100)
 
 if __name__ == "__main__":
     main()
